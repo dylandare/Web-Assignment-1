@@ -1,184 +1,193 @@
-*{
-    background-color: #110C51;
-    font-family: "Microsoft Tai Le";
-    box-sizing: border-box;
-    color:white;
+@font-face {
+  font-family: "Monotype Corsiva";
+  src: url("MTCORSVA.TTF");
 }
 
-body{
-    background-color: #110C51;
+@font-face {
+  font-family: "Microsoft Tai Le";
+  src: url("ntailu.ttf");
 }
 
-.navbar{
-    float:left;
+* {
+  background-color: #110c51;
+  font-family: "Microsoft Tai Le";
+  box-sizing: border-box;
+  color: white;
 }
 
-ul{
-    list-style-type:none;
-    float:left;
-    width:100%;
+body {
+  background-color: #110c51;
 }
 
-li{
-    width:20%;
-    float:left;
-    padding:2% 2%;
-    text-align:center;
-    margin-top:3%;
-    font-family: "Monotype Corsiva";
-    font-size:2vw;
+.navbar {
+  float: left;
 }
 
-.dropbtn{
-    background-color:inherit;
-    color:white;
-    border:none;
-    cursor:pointer;
-    font-family: "Monotype Corsiva";
+ul {
+  list-style-type: none;
+  float: left;
+  width: 100%;
 }
 
-.dropdown{
-    position: relative;
-    display: inline-block;
+li {
+  width: 20%;
+  float: left;
+  padding: 2% 2%;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Monotype Corsiva";
+  font-size: 2vw;
 }
 
-.dropdown-content{
-    display:none;
-    position:absolute;
-    z-index:1;
-    min-width:180px;
+.dropbtn {
+  background-color: inherit;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Monotype Corsiva";
 }
 
-.dropdown-content a{
-    text-decoration:none;
-    display:block;
-    font-family: "Monotype Corsiva";
-    color:white;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.dropdown-content a:hover{
-    background-color:#48C7E5;
-    text-decoration: none;
-    color:black;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  min-width: 180px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  display: block;
+  font-family: "Monotype Corsiva";
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #48c7e5;
+  text-decoration: none;
+  color: black;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-  a:after {    
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    background: #FFFA3E;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  a:hover:after { 
-    width: 100%; 
-    left: 0; 
-  }
-
-  a{
-      font-family:"Monotype Corsiva";
-      cursor:pointer;
-  }
-
-.middle{
-    margin-top:0%;
+a.navlink:after {
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  background: #fffa3e;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.navlink:hover:after {
+  width: 100%;
+  left: 0;
 }
 
-.logo{
-    width:100%;
+a {
+  font-family: "Monotype Corsiva";
+  cursor: pointer;
 }
 
-#slideshow{
-    clear:both;
+.middle {
+  margin-top: 0%;
 }
 
-.title{
-    padding-top:2%;
-    font-family: "Monotype Corsiva";
-    text-align:center;
-    margin-bottom: 0%;
+.logo {
+  width: 100%;
 }
 
-.info{
-    padding: 0% 10%;
-    text-align:justify;
-    margin-bottom:0%;
+#slideshow {
+  clear: both;
 }
 
-.featured{
-    padding-top:2%;
+.title {
+  padding-top: 2%;
+  font-family: "Monotype Corsiva";
+  text-align: center;
+  margin-bottom: 0%;
 }
 
-.featuredtitle1{
-    padding-left:10%;
-    font-family: "Monotype Corsiva";
-    margin-bottom: 0%;
+.info {
+  padding: 0% 10%;
+  text-align: justify;
+  margin-bottom: 0%;
 }
 
-.info1{
-    padding:2% 2% 2% 10%;
-    width:60%;
-    float:left;
-    text-align:justify;
+.featured {
+  padding-top: 2%;
 }
 
-.featuredimg1{
-    float:left;
-    width:40%;
-    padding: 2% 10% 2% 2%;
+.featuredtitle1 {
+  padding-left: 10%;
+  font-family: "Monotype Corsiva";
+  margin-bottom: 0%;
 }
 
-.underline{
-    width:80%;
-    margin-left:10%;
+.info1 {
+  padding: 2% 2% 2% 10%;
+  width: 60%;
+  float: left;
+  text-align: justify;
 }
 
-.featuredtitle2{
-    padding:0% 0% 0% 42%;
-    font-family: "Monotype Corsiva";
-    margin-bottom: 0%;
+.featuredimg1 {
+  float: left;
+  width: 40%;
+  padding: 2% 10% 2% 2%;
 }
 
-.info2{
-    padding:2% 10% 2% 2%;
-    width:60%;
-    float:left;
-    text-align:justify;
+.underline {
+  width: 80%;
+  margin-left: 10%;
 }
 
-.featuredimg2{
-    float:left;
-    width:40%;
-    padding: 2% 2% 2% 10%;
+.featuredtitle2 {
+  padding: 0% 0% 0% 42%;
+  font-family: "Monotype Corsiva";
+  margin-bottom: 0%;
 }
 
-.bottom{
-    float:left;
-    width:100%;
-    background-color:#48C7E5;
+.info2 {
+  padding: 2% 10% 2% 2%;
+  width: 60%;
+  float: left;
+  text-align: justify;
 }
 
-.copyright{
-    float:left;
-    width:50%;
-    background-color:#48C7E5;
-    color:black;
-    margin-top:1%;
-    padding-left:10%;
-        
+.featuredimg2 {
+  float: left;
+  width: 40%;
+  padding: 2% 2% 2% 10%;
 }
 
-.TOS{
-    float:right;
-    width:50%;
-    background-color:#48C7E5;
-    color:black;
-    margin-top:1%;
-    padding-right:10%;
-    text-align:right;
+.bottom {
+  float: left;
+  width: 100%;
+  background-color: #48c7e5;
+}
+
+.copyright {
+  float: left;
+  width: 50%;
+  background-color: #48c7e5;
+  color: black;
+  margin-top: 1%;
+  padding-left: 10%;
+}
+
+.TOS {
+  float: right;
+  width: 50%;
+  background-color: #48c7e5;
+  color: black;
+  margin-top: 1%;
+  padding-right: 10%;
+  text-align: right;
 }
