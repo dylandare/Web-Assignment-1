@@ -26,15 +26,16 @@ body {
 ul {
   list-style-type: none;
   float: left;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 li {
   width: 20%;
   float: left;
-  padding: 2% 2%;
+  padding: 1% 2%;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 2%;
   font-family: "Monotype Corsiva";
   font-size: 2vw;
 }
@@ -105,6 +106,15 @@ a {
 
 #slideshow {
   clear: both;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 600px;
 }
 
 .title {
