@@ -201,3 +201,15 @@ a {
   padding-right: 10%;
   text-align: right;
 }
+/* 
+@media screen and (min-width: 320px) {
+  li {
+    float: left;
+    font-size: 4vw;
+    width: 25%;
+  }
+
+  middle {
+    float: none;
+  }
+} */
